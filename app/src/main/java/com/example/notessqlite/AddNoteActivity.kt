@@ -16,7 +16,7 @@ class AddNoteActivity : AppCompatActivity() {
         binding = ActivityAddNoteBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Initialize the database helper
+        // Initialize database helper
         db = NotesDatabaseHelper(this)
 
         // Set up click listener for the save button
